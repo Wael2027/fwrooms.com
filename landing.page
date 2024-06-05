@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مخازن الأثاث</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #77a4ff 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        header #branding {
+            float: left;
+        }
+        header #branding h1 {
+            margin: 0;
+        }
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+        .showcase {
+            background: #35424a;
+            color: #ffffff;
+            height: 400px;
+            text-align: center;
+            padding-top: 100px;
+        }
+        .showcase h1 {
+            font-size: 55px;
+            margin-top: 0;
+        }
+        .showcase p {
+            font-size: 20px;
+        }
+        #main {
+            padding: 20px;
+            background: #fff;
+        }
+        #main h1, #main h2 {
+            color: #333;
+        }
+        .box {
+            float: left;
+            width: 30%;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+            margin: 20px;
+            background: #fff;
+        }
+        .cta {
+            text-align: center;
+            padding: 20px;
+            background: #35424a;
+            color: #fff;
+        }
+        .cta a {
+            color: #77a4ff;
+            font-size: 18px;
+            text-decoration: none;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1>مخازن الأثاث</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#about">من نحن</a></li>
+                    <li><a href="#products">المنتجات</a></li>
+                    <li><a href="#reviews">آراء العملاء</a></li>
+                    <li><a href="#contact">تواصل معنا</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="showcase">
+        <div class="container">
+            <h1>أثاث فاخر، جودة لا تضاهى</h1>
+            <p>استمتع بأثاث منزلك مع مخازن الأثاث - تصاميم عصرية، جودة عالية، وأسعار تنافسية</p>
+        </div>
+    </section>
+
+    <section id="main" class="container">
+        <h1 id="about">أهلاً بكم في مخازن الأثاث</h1>
+        <p>في مخازن الأثاث، نحن نقدم لكم أفضل تشكيلة من الأثاث المنزلي التي تجمع بين الأناقة والراحة. نهدف إلى تلبية جميع احتياجاتكم من الأثاث بجودة عالية وأسعار تنافسية.</p>
+        
+        <h2>لماذا تختار مخازن الأثاث؟</h2>
+        <ul>
+            <li>جودة لا تضاهى في كل قطعة 🛋️</li>
+            <li>تصاميم عصرية تناسب كل الأذواق ✨</li>
+            <li>أسعار تنافسية مع عروض خاصة 💥</li>
+            <li>خدمة عملاء مميزة وتوصيل سريع 💯</li>
+        </ul>
+
+        <h2 id="products">اكتشف تشكيلتنا المميزة</h2>
+        <p>من غرف النوم الفاخرة إلى الصالات الأنيقة والمطابخ العملية، لدينا كل ما تحتاجه لتجديد منزلك.</p>
+        <div class="box">
+            <h3>غرف النوم</h3>
+            <p>تسوق الآن 🛏️</p>
+        </div>
+        <div class="box">
+            <h3>الصالات</h3>
+            <p>تسوق الآن 🛋️</p>
+        </div>
+        <div class="box">
+            <h3>المطابخ</h3>
+            <p>تسوق الآن 🍽️</p>
+        </div>
+
+        <h2 id="reviews">ما يقوله عملاؤنا</h2>
+        <p>"أفضل تجربة شراء على الإطلاق! جودة عالية وخدمة ممتازة." - أحمد</p>
+        <p>"أثاث جميل وأنيق، يعبر عن ذوقي تماماً." - ليلى</p>
+
+        <div class="cta">
+            <h2>لا تنتظر أكثر، جدد منزلك الآن!</h2>
+            <p>استمتع بتجربة تسوق سهلة وممتعة مع مخازن الأثاث. عروض خاصة بانتظارك.</p>
+            <a href="#products">تسوق الآن واحصل على خصومات</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>تواصل معنا: 1234-567-890 | info@mokhazen-furniture.com | شارع الأثاث، مدينة الأثاث</p>
+    </footer>
+</body>
+</html>
